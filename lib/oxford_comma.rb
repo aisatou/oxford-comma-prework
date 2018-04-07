@@ -2,6 +2,6 @@ def oxford_comma(array)
  return array.join
 end
 
-def oxford_comma
-  
+def oxford_comma(array)
+  array.join(" and ")
 end
